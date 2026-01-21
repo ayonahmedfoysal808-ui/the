@@ -1,0 +1,7 @@
+{
+  "name": "Medha AI - Your Education Assistant",
+  "description": "A focused, modern education assistant specializing in SSC, HSC, and Admission preparation across academic subjects like Physics, Chemistry, Math, and Biology.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
