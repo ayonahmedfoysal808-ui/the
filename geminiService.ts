@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
-import { AppMode, Message, Subject, Source } from "./types";
-import { SYSTEM_INSTRUCTION, MODE_SPECIFIC_INSTRUCTIONS } from "./constants";
+import { AppMode, Message, Subject, Source } from "./types.ts";
+import { SYSTEM_INSTRUCTION, MODE_SPECIFIC_INSTRUCTIONS } from "./constants.tsx";
 
 export interface MedhaResponse {
   text: string;

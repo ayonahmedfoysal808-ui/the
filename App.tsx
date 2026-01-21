@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { AppMode, Subject, Message, ChatState, Usage, Source } from './types';
+import { AppMode, Subject, Message, ChatState, Usage, Source } from './types.ts';
 import { ICONS, SUBJECTS, DAILY_LIMIT, WEB_PRIMARY, MOBILE_PRIMARY } from './constants.tsx';
-import { sendMessageToMedha } from './geminiService';
+import { sendMessageToMedha } from './geminiService.ts';
 
 const STORAGE_KEY_PREFS = 'medha_prefs_v3';
 const STORAGE_KEY_USAGE = 'medha_usage_v3';
